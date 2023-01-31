@@ -23,7 +23,7 @@ public:
 
 Calculator::Calculator()
 {
-    //initUI();
+    // Init UI
     display = new QLineEdit("0");
     layout = new QGridLayout(this);
     layout->addWidget(display, 0, 0, 1, 4);
